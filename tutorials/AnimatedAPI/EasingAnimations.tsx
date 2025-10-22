@@ -39,8 +39,10 @@ const EasingAnimations = () => {
       />
       <Button title="Step0" onPress={() => startAnimation(Easing.step0)} />
       <Button title="Step1" onPress={() => startAnimation(Easing.step1)} />
-              <Button title='Linear' onPress={() => startAnimation(Easing.inOut(Easing.quad))}/>
-
+      <Button
+        title="Linear"
+        onPress={() => startAnimation(Easing.inOut(Easing.quad))}
+      />
     </View>
   );
 };

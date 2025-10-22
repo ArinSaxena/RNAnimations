@@ -58,8 +58,6 @@ const Value = () => {
       ]),{iterations:5}
     ).start()
 
-  }
-
   useEffect(() => {
     startAnimation();
     startXyAnimation();
