@@ -8,6 +8,7 @@ import Interpolation from './tutorials/AnimatedAPI/Interpolation';
 import AnimTypes from './tutorials/AnimatedAPI/AnimTypes';
 import EasingAnimations from './tutorials/AnimatedAPI/EasingAnimations';
 import NestedFunction from './tutorials/AnimatedAPI/NestedFunction';
+import Event from './tutorials/AnimatedAPI/Event';
 const App = () => {
   return (
     <View style={styles.container}>
@@ -22,7 +23,8 @@ const App = () => {
       {/* <Interpolation/> */}
       {/* <AnimTypes/> */}
       {/* <EasingAnimations/> */}
-      <NestedFunction/>
+      {/* <NestedFunction/> */}
+      <Event/>
 
     </View>
   );
