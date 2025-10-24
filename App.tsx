@@ -9,6 +9,9 @@ import AnimTypes from './tutorials/AnimatedAPI/AnimTypes';
 import EasingAnimations from './tutorials/AnimatedAPI/EasingAnimations';
 import NestedFunction from './tutorials/AnimatedAPI/NestedFunction';
 import Event from './tutorials/AnimatedAPI/Event';
+import CustomAnimatedComponent from './tutorials/AnimatedAPI/CustomAnimatedComponent';
+import LayoutAnim from './tutorials/AnimatedAPI/LayoutAnim';
+import ScrollEvent from './tutorials/AnimatedAPI/ScrollEvent';
 const App = () => {
   return (
     <View style={styles.container}>
@@ -24,7 +27,10 @@ const App = () => {
       {/* <AnimTypes/> */}
       {/* <EasingAnimations/> */}
       {/* <NestedFunction/> */}
-      <Event/>
+      {/* <Event/> */}
+      {/* <CustomAnimatedComponent/> */}
+      {/* <LayoutAnim/> */}
+      <ScrollEvent/>
 
     </View>
   );
