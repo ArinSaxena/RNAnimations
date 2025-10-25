@@ -12,6 +12,7 @@ import Event from './tutorials/AnimatedAPI/Event';
 import CustomAnimatedComponent from './tutorials/AnimatedAPI/CustomAnimatedComponent';
 import LayoutAnim from './tutorials/AnimatedAPI/LayoutAnim';
 import ScrollEvent from './tutorials/AnimatedAPI/ScrollEvent';
+import RNBasic from './tutorials/Reanimated/RNBasic';
 const App = () => {
   return (
     <View style={styles.container}>
@@ -30,7 +31,11 @@ const App = () => {
       {/* <Event/> */}
       {/* <CustomAnimatedComponent/> */}
       {/* <LayoutAnim/> */}
-      <ScrollEvent/>
+      {/* <ScrollEvent/> */}
+
+
+      {/* RNreanimated */}
+      <RNBasic/>
 
     </View>
   );
