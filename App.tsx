@@ -13,6 +13,7 @@ import CustomAnimatedComponent from './tutorials/AnimatedAPI/CustomAnimatedCompo
 import LayoutAnim from './tutorials/AnimatedAPI/LayoutAnim';
 import ScrollEvent from './tutorials/AnimatedAPI/ScrollEvent';
 import RNBasic from './tutorials/Reanimated/RNBasic';
+import Method from './tutorials/Reanimated/Method';
 const App = () => {
   return (
     <View style={styles.container}>
@@ -35,7 +36,8 @@ const App = () => {
 
 
       {/* RNreanimated */}
-      <RNBasic/>
+      {/* <RNBasic/> */}
+      <Method/>
 
     </View>
   );
