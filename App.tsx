@@ -14,6 +14,7 @@ import LayoutAnim from './tutorials/AnimatedAPI/LayoutAnim';
 import ScrollEvent from './tutorials/AnimatedAPI/ScrollEvent';
 import RNBasic from './tutorials/Reanimated/RNBasic';
 import Method from './tutorials/Reanimated/Method';
+import Hooks from './tutorials/Reanimated/Hooks';
 const App = () => {
   return (
     <View style={styles.container}>
@@ -37,7 +38,8 @@ const App = () => {
 
       {/* RNreanimated */}
       {/* <RNBasic/> */}
-      <Method/>
+      {/* <Method/> */}
+      <Hooks/>
 
     </View>
   );
