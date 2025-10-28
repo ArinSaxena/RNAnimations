@@ -17,6 +17,8 @@ import Method from './tutorials/Reanimated/Method';
 import Hooks from './tutorials/Reanimated/Hooks';
 import ScrollHandler from './tutorials/Reanimated/ScrollHandler';
 import ScrollTo from './tutorials/Reanimated/ScrollTo';
+import ScrollOffset from './tutorials/Reanimated/ScrollOffset';
+import KeyboardHandler from './tutorials/Reanimated/KeyboardHandler';
 const App = () => {
   return (
     <View style={styles.container}>
@@ -43,7 +45,9 @@ const App = () => {
       {/* <Method/> */}
       {/* <Hooks/> */}
       {/* <ScrollHandler/> */}
-      <ScrollTo/>
+      {/* <ScrollTo/> */}
+      {/* <ScrollOffset/> */}
+      <KeyboardHandler/>
 
     </View>
   );
