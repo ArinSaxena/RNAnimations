@@ -15,6 +15,8 @@ import ScrollEvent from './tutorials/AnimatedAPI/ScrollEvent';
 import RNBasic from './tutorials/Reanimated/RNBasic';
 import Method from './tutorials/Reanimated/Method';
 import Hooks from './tutorials/Reanimated/Hooks';
+import ScrollHandler from './tutorials/Reanimated/ScrollHandler';
+import ScrollTo from './tutorials/Reanimated/ScrollTo';
 const App = () => {
   return (
     <View style={styles.container}>
@@ -39,7 +41,9 @@ const App = () => {
       {/* RNreanimated */}
       {/* <RNBasic/> */}
       {/* <Method/> */}
-      <Hooks/>
+      {/* <Hooks/> */}
+      {/* <ScrollHandler/> */}
+      <ScrollTo/>
 
     </View>
   );
